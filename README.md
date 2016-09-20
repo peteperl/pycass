@@ -3,6 +3,12 @@
 Python toolkit for Cassandra Time-Series Data  
 With simple changes to the schema, this can be adapted to a variety of time-series date. Feel free to ping me for guidance after you go through the tutorial below.  
 
+## Code
+
+* pycass.py: This is the base code that sets up basic and advanced time-series schemas, reads, writes, etc.  
+  
+* cass_worker.py: This is a higher level code that works on top of pycass.py. It contains a basic function for batch writes, a safe connection method in the rare case the Cassandra connection fails, and an example of how to format data to your the schema.  
+
 ## Cassandra Advanced Time Series Tutorial
 
 I have prepared a tutorial on using Cassandra for advanced time series data due to multiple requests.  
