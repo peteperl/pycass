@@ -1,0 +1,10 @@
+*.log
+*.pyc
+*.pyo
+
+dev/
+old/
+
+.DS_Store
+.idea
+
